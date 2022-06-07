@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sheet Master</title>
+  <link href="http://fonts.cdnfonts.com/css/coneria-script-demo" rel="stylesheet">
+  <link rel="stylesheet" href="/css/stylehome.css">
+</head>
+
+<body>
+
+  <header>
+
+    <nav class="navbar">
+      <!-- LOGO -->
+      <div class="logo">Sheet Master : Une histoire... la vôtre !
+        <img src="/img/kgfu_rswx_190123-removebg-preview.png" alt="">
+      </div>
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="product.html">Accueil</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="services">
+            <a href="" id="vide">Nous rejoindre</a>
+            <!-- DROPDOWN MENU -->
+            <ul class="dropdown">
+              <li><a href="ux.html">UX Designer</a></li>
+              <li><a href="chefdeprojet.html">Chef de projet</a></li>
+              <li><a href="leaddeveloper.html">Lead Developer</a></li>
+            </ul>
+          </li>
+          <li><a href="press.html">Presse</a></li>
+          <li><a href="team.html">L'équipe</a></li>
+          <li><a href="FAQ.html">F.A.Q.</a></li>
+        </div>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <div>
+      <br>
+      <h1 id="punchline">A chaque feuille votre histoire !</h1>
+      <img src="" alt="" id="logo">
+    </div>
+    <article>
+      <div id="carousse">
+        <img src="/img/votre histoire.jpg" alt="" id="slide">
+        <div><img class="arrow" src="/img/arrow left.png" alt="" id="precedent" onclick="ChangeSlide(-1)">
+        </div>
+        <div id="suivant" onclick="ChangeSlide(1)"><img class="arrow" src="/img/arrow right.png" alt="">
+        </div>
+      </div>
+    </article>
+    <br>
+    <footer>
+      <p>Tournez les pages de votre récit, expérimentez la mémoire de vos fictions, touchez du doigt vos souvenirs...
+      </p>
+    </footer>
+  </main>
+
+  <script src="/js/apphome.js"></script>
+</body>
+
+</html>

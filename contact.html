@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="http://fonts.cdnfonts.com/css/coneria-script-demo" rel="stylesheet">
+    <link rel="stylesheet" href="/css/stylehome.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo">Sheet Master : Une histoire... la vôtre !
+                <img src="/img/kgfu_rswx_190123-removebg-preview.png" alt="">
+            </div>
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+                <!-- USING CHECKBOX HACK -->
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <!-- NAVIGATION MENUS -->
+                <div class="menu">
+                    <li><a href="product.html">Accueil</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="services">
+                        <a href="joinus.html" id="vide">Nous rejoindre</a>
+                        <!-- DROPDOWN MENU -->
+                        <ul class="dropdown">
+                            <li><a href="ux.html">UX Designer</a></li>
+                            <li><a href="chefdeprojet.html">Chef de projet</a></li>
+                            <li><a href="leaddeveloper.html">Lead Developer</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="press.html">Presse</a></li>
+                    <li><a href="team.html">L'équipe</a></li>
+                    <li><a href="FAQ.html">F.A.Q.</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <section name="product">
+
+        <form action="">
+            <h2>Contactez-nous</h2>
+
+            <div id="aboutYou">
+                <label for="noun"></label>
+                <input type="text" name="noun" id="noun" placeholder="Nom"><br>
+                <label for="prenoun"></label>
+                <input type="text" name="prenoun" id="prenoun" placeholder="Prénom"><br>
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Adresse mail"><br>
+                <label for="postal"></label>
+                <input type="text" name="postal" id="postal" placeholder="Code Postal"><br>
+                <label for="country"></label>
+                <input type="text" name="country" id="country" placeholder="Pays"><br>
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>Comment nous connaissez-vous ?</legend>
+                    <label for="bao">BAO</label>
+                    <input type="radio" name="1" id="bao"><br>
+                    <label for="internet">Internet</label>
+                    <input type="radio" name="1" id="internet"><br>
+                    <label for="peer">Connaissance</label>
+                    <input type="radio" name="1" id="peer"><br>
+                    <label for="seek">Recherche</label>
+                    <input type="radio" name="1" id="seek"><br>
+                </fieldset>
+            </div>
+            <br>
+            <div>
+                <label for="date">Date à laquelle vous souhaitez être recontacté.</label><br>
+                <input type="datetime-local" name="date" id="date">
+            </div>
+            <br>
+            <textarea name="commentSec" id="comments" cols="150" rows="10"
+                placeholder="Laissez un commentaire ici ..."></textarea>
+
+        </form>
+
+    </section>
+
+
+
+</body>
+
+</html>
